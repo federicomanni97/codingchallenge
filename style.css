@@ -1,0 +1,101 @@
+*{
+    box-sizing:border-box;
+    
+}
+  
+body{
+    background-image: url(background.jpg); 
+    background-size: cover;
+    color: white;
+}
+  
+.container{
+      margin-top: 50px;
+      margin-left: 300px;
+      margin-right: 300px;    
+      width: 1300px;
+      height: 900px;
+      padding: 100px;
+      background-color: rgba(3, 3, 3, 0.7);
+      border-radius:50px;
+    
+}
+
+#logo{
+    text-align: center;
+
+}
+
+.logo2{
+    width: 200px;
+    margin-top: 1px;
+    
+}
+
+.text-logo{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 17px;
+    color: rgb(65, 223, 65);    
+    text-align: center;
+}    
+
+.navigazione{
+    background-color: rgb(65, 223, 65);
+    border: solid 10px;
+    border-color: rgb(65, 223, 65);
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius:20px;
+
+}
+
+.barra1{
+    border: solid 15px;
+    border-color: orange;
+    border-radius:8px;
+    margin-right: 700px;
+
+}
+
+.barra2{
+    border: solid 15px;
+    border-color: rgb(60, 228, 60);
+    border-radius:8px;
+    margin-right: 500px;
+
+}
+
+.barra3{
+    border: solid 15px;
+    border-color: red;
+    border-radius:8px;
+    margin-right: 1000px;
+
+} 
+
+.monopattino{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.indicator:before{
+    content: "\27A5";
+
+}
+
+.square:before{
+    content: "\25A0";
+
+}
+
+h3{
+    height: 6px;
+
+}
+
+p{
+    height: 15px;
+
+}
